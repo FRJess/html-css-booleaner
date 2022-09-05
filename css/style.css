@@ -31,7 +31,6 @@ font-size: 40px;
 padding-top: 5px;
 }
 
-
 .credits{
   color: #696969;
   font-size: 15px;
@@ -87,10 +86,12 @@ table{
 }
 
 /* FOOTER */
+
 footer{
   padding-top: 10px;
   margin-left: 4px;
 }
+
 #more{
   color: #717171;
   padding-bottom: 8px;
