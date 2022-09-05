@@ -56,8 +56,8 @@ a{
 
 .paragrafo{
   text-align: justify;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .important-text{
@@ -66,6 +66,7 @@ background-color: #FFFF00;
 
 ul{
   padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 table{
@@ -79,6 +80,10 @@ table{
 
 .row-one,.row-three{
   background-color: #B0E5F2;
+}
+
+.column-one, .column-two{
+  width: 200px;;
 }
 
 /* FOOTER */
@@ -106,6 +111,6 @@ footer{
 }
 
 .footer{
-  width: 15%;
-  height: 15%;
+  width: 20%;
+  height: 20%;
 }
