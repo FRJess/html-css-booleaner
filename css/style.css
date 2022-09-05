@@ -57,8 +57,14 @@ a{
 
 .paragrafo{
   text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .important-text{
 background-color: #FFFF00;
+}
+
+ul{
+  padding-left: 15px;
 }
