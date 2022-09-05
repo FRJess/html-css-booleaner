@@ -68,3 +68,12 @@ background-color: #FFFF00;
 ul{
   padding-left: 15px;
 }
+
+.table-head{
+  background-color: #20A9E5;
+  color: #FFFFFF;
+}
+
+.row-one,.row-three{
+  background-color: #B0E5F2;
+}
