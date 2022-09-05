@@ -1,0 +1,18 @@
+*{
+  margin:0;
+}
+
+header{
+  background-image: url('../img/pattern.png');
+  background-color: #4EA0FF;
+  background-position: center;
+  height: 200px;
+}
+
+  #logo{
+  display: block;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 100px
+}
