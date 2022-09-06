@@ -1,34 +1,36 @@
+/* GENERAL */
+
 *{
+  padding: 0;
   margin: 0;
 }
 
+.important-text{
+  background-color: #FFFF00;
+  }
+
 /* HEADER */
 header{
+  padding: 10px;
   background-image: url('../img/pattern.png');
   background-color: #4EA0FF;
-  background-position: center;
-  height: 200px;
+  background-size: 25%;
+  height: 100px;
 }
 
   #logo{
-  display: block;
-  height: 80px;
-  position: absolute;
-  left: 10px;
-  top: 100px
+  width: 200px;
+  margin-top: 40px
 }
 
 /* MAIN */
 
 main{
-  margin-left: 4px;
-  padding-top: 10px;
-  
+  padding: 20px 10px;  
 }
 
 #title{ 
 font-size: 40px;
-padding-top: 5px;
 }
 
 .credits{
@@ -37,12 +39,8 @@ padding-top: 5px;
   padding-top: 5px;
 }
 
-a{
+#author{
   color: #00ACE6;
-}
-.portrait{
-  width: 40%;
-  height: 100%;
 }
 
 .immagini-head{
@@ -55,12 +53,7 @@ a{
 
 .paragrafo{
   text-align: justify;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.important-text{
-background-color: #FFFF00;
+  padding: 20px 0;
 }
 
 ul{
@@ -75,6 +68,7 @@ table{
 .table-head{
   background-color: #20A9E5;
   color: #FFFFFF;
+  text-align: left;
 }
 
 .row-one,.row-three{
@@ -82,36 +76,42 @@ table{
 }
 
 .column-one, .column-two{
-  width: 200px;;
+  width: 25%;;
+}
+
+.column-three{
+  width: 50%;
 }
 
 /* FOOTER */
 
 footer{
-  padding-top: 10px;
+  padding: 20px 10px;
   margin-left: 4px;
 }
 
 #more{
   color: #717171;
   padding-bottom: 8px;
-  font-weight: 600;
 }
 
-.container{
-  position: relative;
-  text-align: left;
-  color: #FFFFFF;
+.image-box{
+  width: 207px;
+  height: 158px;
+  margin: 10px 0;
+}
+
+#image-monitor{
+  background-image: url('../img/monitor.jpg');
+  background-size: 100%;
+}
+
+#image-graph{
+  background-image: url('../img/graph.jpg');
+  background-size: 100%;
 }
 
 .image-text{
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-weight: 600;
-}
-
-.footer{
-  width: 20%;
-  height: 20%;
+  padding: 5px 5px;
+  color: white;
 }
