@@ -86,8 +86,7 @@ table{
 /* FOOTER */
 
 footer{
-  padding: 20px 10px;
-  margin-left: 4px;
+  padding: 0px 10px;
 }
 
 #more{
@@ -98,7 +97,6 @@ footer{
 .image-box{
   width: 207px;
   height: 158px;
-  margin: 10px 0;
 }
 
 #image-monitor{
