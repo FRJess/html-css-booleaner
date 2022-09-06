@@ -5,6 +5,12 @@
   margin: 0;
 }
 
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .important-text{
   background-color: #FFFF00;
   }
@@ -97,6 +103,8 @@ footer{
 .image-box{
   width: 207px;
   height: 158px;
+  margin: 5px 0;
+  padding: 10px;
 }
 
 #image-monitor{
